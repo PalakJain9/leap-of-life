@@ -1,0 +1,15 @@
+.textWithHover {
+  @apply text-grey p-[0.5rem] hover:bg-darkGrey hover:text-white rounded-md text-[0.93rem] font-semibold
+}
+
+.navbarContainer {
+  @apply flex flex-row justify-end items-center gap-4 font-semibold text-grey
+}
+
+.hamburger {
+  display: block;
+  width: 1.5rem;
+  height: 0.13rem;
+  background-color: rgb(160, 160, 160);
+  transition: all 200ms ease-in-out;
+}
