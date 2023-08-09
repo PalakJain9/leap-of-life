@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 .universalPadding {
-  @apply px-[1rem] xl:px-[9rem]
+  @apply px-[1rem] lg:px-[2rem] 2xl:px-[10rem]
+}
+
+.gradientText {
+  background-image: radial-gradient(50% 50% at 50% 50%, rgb(0, 255, 198) 0%, rgb(78, 159, 255) 100%)
 }
  
 @layer base {

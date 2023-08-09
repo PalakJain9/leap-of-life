@@ -1,0 +1,14 @@
+.heroButtons {
+  @apply w-full lg:w-auto lg:px-[1rem] rounded-xl py-[0.8rem] text-xl font-semibold
+}
+
+.tabButton {
+  @apply bg-backgroundGrey rounded-none border-aqua text-grey text-base
+  data-[state=active]:bg-backgroundGrey 
+  data-[state=active]:text-grey 
+  data-[state=active]:border-b-2
+}
+
+.tabText {
+  @apply flex flex-col gap-2 justify-start items-start border border-darkGrey rounded-lg p-[1rem] w-full
+}

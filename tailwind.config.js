@@ -20,6 +20,7 @@ module.exports = {
         aqua: "rgba(112, 225, 200, 1)",
         grey: "rgb(160, 160, 160)",
         darkGrey: "#313538",
+        backgroundGrey: "#151515",
         gradientBlue: "rgb(78, 159, 255)",
         gradientAqua: "rgb(0, 255, 198)",
         border: "hsl(var(--border))",

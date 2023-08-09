@@ -14,7 +14,7 @@ export default function Navbar () {
       >
         <Link
           href='/'
-          className="text-2xl font-medium text-white"
+          className="text-xl lg:text-2xl font-medium text-white"
         >
           Leap x Palak
         </Link>
@@ -53,7 +53,7 @@ export default function Navbar () {
         >
           <Link
             href=''
-            className={styles.textWithHover}
+            className={`${styles.textWithHover} hidden md:flex`}
           >
             Contact
           </Link>
