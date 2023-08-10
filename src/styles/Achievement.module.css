@@ -1,0 +1,19 @@
+.imgContainer {
+  @apply flex justify-center items-center w-full md:w-2/3 xl:w-5/12
+}
+
+.textContainer {
+  @apply flex flex-col justify-center items-center xl:items-start gap-6 w-full lg:w-3/5 xl:w-2/5 
+}
+
+.headings {
+  @apply text-white/90 text-3xl lg:text-4xl
+}
+
+.highlightText {
+  @apply text-blue pr-[0.5rem]
+}
+
+.description {
+  @apply text-grey font-normal xl:w-3/4
+}

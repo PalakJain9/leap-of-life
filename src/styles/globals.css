@@ -7,7 +7,7 @@
 }
 
 .gradientText {
-  background-image: radial-gradient(50% 50% at 50% 50%, rgb(0, 255, 198) 0%, rgb(78, 159, 255) 100%)
+  @apply text-transparent bg-clip-text bg-gradient-to-b from-gradientBlue to-gradientAqua
 }
  
 @layer base {

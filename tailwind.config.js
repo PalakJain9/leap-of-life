@@ -18,6 +18,7 @@ module.exports = {
     extend: {
       colors: {
         aqua: "rgba(112, 225, 200, 1)",
+        blue: "rgb(129, 198, 223)",
         grey: "rgb(160, 160, 160)",
         darkGrey: "#313538",
         backgroundGrey: "#151515",

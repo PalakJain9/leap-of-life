@@ -19,7 +19,7 @@ function MainHero () {
           className="w-full 2xl:w-1/2 p-[2rem] lg:p-[3rem] xl:p-[4rem] flex flex-col justify-center items-center 2xl:items-start gap-8 text-grey text-center 2xl:text-left bg-backgroundGrey rounded-xl"
         >
           <h1
-            className='font-semibold text-transparent text-4xl md:text-5xl lg:text-7xl bg-clip-text bg-gradient-to-b from-gradientBlue to-gradientAqua'
+            className='font-semibold text-4xl md:text-5xl lg:text-7xl gradientText'
           >
             Deliver high-impact features with Palak
           </h1>
