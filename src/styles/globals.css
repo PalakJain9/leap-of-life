@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .universalPadding {
-  @apply px-[1rem] lg:px-[2rem] 2xl:px-[10rem]
+  @apply px-[1rem] md:px-[1.5rem] lg:px-[2rem] 2xl:px-[10rem]
 }
 
 .gradientText {

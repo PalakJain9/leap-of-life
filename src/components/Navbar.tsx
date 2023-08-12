@@ -7,10 +7,10 @@ export default function Navbar () {
 
   return (
     <div
-      className="flex flex-col justify-start items-start w-full grow"
+      className="fixed z-10 flex flex-col justify-start items-start w-full grow"
     >  
       <div
-        className="bg-black flex flex-row justify-between items-center w-full universalPadding py-[2rem]"
+        className="bg-black flex flex-row justify-between items-center w-full universalPadding h-[6rem]"
       >
         <Link
           href='/'
@@ -92,7 +92,7 @@ export default function Navbar () {
 
       {/* dropdown content */}
       <div
-        className={`z-10 w-full pt-[1rem] pb-[2rem] bg-black text-white flex flex-col justify-center items-center
+        className={`w-full pt-[1rem] pb-[2rem] bg-black text-white flex flex-col justify-center items-center
         ${isClicked ? "flex" : "hidden"}
         `}
       >

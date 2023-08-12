@@ -10,7 +10,7 @@ import {
 function MainHero () {
   return (
     <div
-      className="flex justify-center items-center w-full universalPadding"
+      className={`mt-[6rem] flex justify-center items-center w-full universalPadding ${styles.gradientBackground} pt-[1.5rem]`}
     >
       <div
         className="flex flex-row justify-between items-start w-full bg-backgroundGrey border border-darkGrey rounded-xl"
@@ -106,7 +106,7 @@ function MainHero () {
 export default function Hero () {
   return (
     <div
-      className="flex flex-col justify-start items-start w-full h-full grow bg-black"
+      className="relative flex flex-col justify-start items-start w-full h-full grow bg-black"
     >
       <Navbar />
       <MainHero />
