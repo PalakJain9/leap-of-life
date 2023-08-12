@@ -6,7 +6,7 @@
 }
 
 .heroButtons {
-  @apply w-full lg:w-auto lg:px-[1rem] rounded-xl py-[0.8rem] text-xl font-semibold
+  @apply w-full lg:w-auto lg:px-[1rem] rounded-xl py-[0.8rem] font-semibold
 }
 
 .tabButton {
