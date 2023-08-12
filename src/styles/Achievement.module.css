@@ -3,7 +3,7 @@
 }
 
 .textContainer {
-  @apply flex flex-col justify-center items-center xl:items-start gap-6 w-full lg:w-3/5 xl:w-2/5 
+  @apply flex flex-col justify-center items-center xl:items-start gap-6 w-full lg:w-3/5 xl:w-2/5 text-center lg:text-left
 }
 
 .headings {
@@ -15,5 +15,5 @@
 }
 
 .description {
-  @apply text-grey font-normal xl:w-3/4
+  @apply text-grey font-normal xl:w-3/4 text-center lg:text-left
 }
