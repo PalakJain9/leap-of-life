@@ -1,6 +1,5 @@
 import Image from "next/image";
 import styles from '@/styles/Achievement.module.css'
-import Link from "next/link";
 
 function Card (
   { children } : 
@@ -8,15 +7,9 @@ function Card (
 ) {
   return (
     <div
-      className="w-full flex flex-col xl:flex-row-reverse gap-6 justify-center xl:gap-[6rem] pt-[5rem] items-center"
+      className="w-full flex flex-col xl:flex-row-reverse gap-6 justify-center xl:gap-[6rem] pt-[3rem] lg:pt-[5rem] items-center"
     >
       {children}
-      {/* <Link
-        href='/'
-        className="bg-white text-black p-[1rem] rounded-lg hover:bg-white/80"
-      >
-        Learn More
-      </Link> */}
     </div>
   )
 }
@@ -33,7 +26,7 @@ export default function Achievement () {
       </h1>
 
       <h2
-        className="text-3xl lg:text-4xl xl:text-5xl w-full md:w-1/2"
+        className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl w-full md:w-2/5 lg:w-1/2"
       >
         Build the next generation of Leap AI apps with Palak
       </h2>
@@ -260,7 +253,7 @@ export default function Achievement () {
           <p
             className={styles.description}
           >
-            Contributed significantly to a early stage startup's growth by improving the overall experience of 10,000+ users by reporting 2 bugs and providing 7+ feedback.
+            Contributed significantly to a early stage startup&apos;s growth by improving the overall experience of 10,000+ users by reporting 2 bugs and providing 7+ feedback.
           </p>
         </div>
       </Card>

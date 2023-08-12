@@ -1,0 +1,7 @@
+.linksContainer {
+  @apply flex flex-col justify-start items-start gap-3 text-darkBlue lg:text-lg
+}
+
+.links {
+  @apply hover:underline
+}

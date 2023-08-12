@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import styles from '@/styles/Footer.module.css'
 
 function Contact () {
   return (
@@ -28,7 +29,7 @@ function Contact () {
         className="md:pl-[1.5rem] lg:pl-0 flex flex-row justify-start items-start gap-[1.5rem] lg:gap-[3rem]"
       >
         <div
-          className="flex flex-col justify-start items-start gap-3 text-darkBlue lg:text-lg"
+          className={styles.linksContainer}
         >
           <h1
             className="text-white"
@@ -38,28 +39,28 @@ function Contact () {
 
           <Link
             href='/'
-            className=""
+            className={styles.links}
           >
             Leap AI Feedback 
           </Link>
 
           <Link
             href='/'
-            className=""
+            className={styles.links}
           >
             Blog
           </Link>
 
           <Link
             href='/'
-            className=""
+            className={styles.links}
           >
             Portfolio
           </Link>
         </div>
 
         <div
-          className="flex flex-col justify-start items-start gap-3 text-darkBlue lg:text-lg"
+          className={styles.linksContainer}
         >
           <h1
             className="text-white"
@@ -69,21 +70,21 @@ function Contact () {
 
           <Link
             href='/'
-            className=""
+            className={styles.links}
           >
             Email
           </Link>
 
           <Link
             href='/'
-            className=""
+            className={styles.links}
           >
             LinkedIn
           </Link>
 
           <Link
             href='/'
-            className=""
+            className={styles.links}
           >
             GitHub
           </Link>
@@ -96,7 +97,7 @@ function Contact () {
 export default function Footer () {
   return (
     <div
-      className="flex flex-col justify-center items-center w-full gap-[5rem]"
+      className="flex flex-col justify-center items-center w-full gap-[3rem] md:gap-[5rem]"
     >
       <div
         className="flex justify-center items-center w-full universalPadding"

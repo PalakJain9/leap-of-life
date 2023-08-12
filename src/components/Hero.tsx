@@ -27,7 +27,7 @@ function MainHero () {
           <p
             className="lg:text-lg w-full xl:w-3/4"
           >
-            Hi, I'm Palak, a full-stack developer. Ready to work hard, enhance customer & developer experience at Leap and make history.
+            Hi, I&apos;m Palak, a full-stack developer. Ready to work hard, enhance customer & developer experience at Leap and make history.
           </p>
 
           <div
@@ -51,7 +51,7 @@ function MainHero () {
           className="hidden 2xl:flex justify-end items-end w-full lg:w-1/2 p-[2rem] lg:p-[3rem] xl:p-[4rem] bg-backgroundGrey text-grey rounded-lg"
         >
           <Tabs 
-            defaultValue="JavaScript" 
+            defaultValue="Python" 
             className="w-full h-full justify-start items-start flex flex-col gap-4"
           >
             <TabsList
