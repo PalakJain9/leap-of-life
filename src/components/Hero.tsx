@@ -20,13 +20,13 @@ function MainHero () {
           className="w-full 2xl:w-1/2 p-[2rem] lg:p-[3rem] xl:p-[4rem] flex flex-col justify-center items-center 2xl:items-start gap-8 text-grey text-center 2xl:text-left rounded-xl"
         >
           <h1
-            className='font-semibold text-4xl md:text-5xl lg:text-7xl gradientText'
+            className='font-semibold text-3xl md:text-4xl lg:text-5xl gradientText'
           >
             Deliver high-impact features with Palak
           </h1>
 
           <p
-            className="lg:text-lg w-full xl:w-3/4"
+            className="w-full xl:w-3/4"
           >
             Hi, I&apos;m Palak, a full-stack developer. Ready to work hard, enhance customer & developer experience at Leap and make history.
           </p>

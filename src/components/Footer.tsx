@@ -15,7 +15,7 @@ function Contact () {
           href='/'
           className="font-semibold text-2xl lg:text-4xl"
         >
-          Leap AI x Palak
+          Leap x Palak
         </Link>
 
         <p
@@ -42,7 +42,7 @@ function Contact () {
             href='https://docs.google.com/document/d/1kmWH9yf3Rbvol4Zo1tTjxVwY-sTmkbp4leaMOJVRcdc/edit?usp=sharing'
             className={styles.links}
           >
-            Leap AI Feedback 
+            Leap Feedback Report
           </Link>
 
           <Link
@@ -122,9 +122,9 @@ export default function Footer () {
               className="flex flex-col gap-[5rem] justify-center items-center w-full md:w-2/3 h-full"
             >
               <p
-                className="text-3xl md:text-4xl lg:text-6xl font-semibold text-center gradientText"
+                className="text-2xl md:text-3xl lg:text-5xl font-semibold text-center gradientText"
               >
-                Our Leap AI. Magic of Palak. Boosts Growth.
+                Our Leap. Magic of Palak. Boosts Growth.
               </p>
 
               <div

@@ -1,5 +1,5 @@
 .linksContainer {
-  @apply flex flex-col justify-start items-start gap-3 text-darkBlue lg:text-lg
+  @apply flex flex-col justify-start items-start gap-3 text-darkBlue
 }
 
 .links {

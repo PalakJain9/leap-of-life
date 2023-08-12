@@ -26,9 +26,9 @@ export default function Achievement () {
       </h1>
 
       <h2
-        className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl w-full md:w-2/5 lg:w-1/2"
+        className="text-xl md:text-2xl lg:text-3xl xl:text-4xl w-full md:w-2/5 lg:w-1/2"
       >
-        Build the next generation of Leap AI apps with Palak
+        Build the next generation of Leap apps with Palak
       </h2>
 
       <Card> 
