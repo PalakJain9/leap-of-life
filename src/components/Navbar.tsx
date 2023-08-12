@@ -27,21 +27,21 @@ export default function Navbar () {
           className='hidden lg:flex flex-row justify-end items-center gap-4 font-semibold text-grey'
         >
           <Link
-            href='/'
+            href='#experience'
             className={styles.textWithHover}
           >
             Experience
           </Link>
 
           <Link
-            href='/'
+            href='#community'
             className={styles.textWithHover}
           >
             Community
           </Link>
 
           <Link
-            href='/'
+            href='https://palakjain.hashnode.dev/'
             className={styles.textWithHover}
           >
             Blog
@@ -52,14 +52,14 @@ export default function Navbar () {
           className={styles.navbarContainer}
         >
           <Link
-            href=''
+            href='#contact'
             className={`${styles.textWithHover} hidden md:flex`}
           >
             Contact
           </Link>
 
           <Link
-            href=''
+            href='mailto:palakb188@gmail.com'
             className='text-black px-[1rem] py-[0.3rem] bg-white hover:bg-white/90 rounded-md text-sm lg:text-base border border-white/80'
           >
             Hire Palak

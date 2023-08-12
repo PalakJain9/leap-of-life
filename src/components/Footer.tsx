@@ -5,6 +5,7 @@ import styles from '@/styles/Footer.module.css'
 function Contact () {
   return (
     <div
+      id='contact'
       className="flex flex-col lg:flex-row justify-start items-start gap-[1.5rem] text-white universalPadding w-full font-medium pb-[4rem]"
     >
       <div
@@ -38,21 +39,21 @@ function Contact () {
           </h1>
 
           <Link
-            href='/'
+            href='https://docs.google.com/document/d/1kmWH9yf3Rbvol4Zo1tTjxVwY-sTmkbp4leaMOJVRcdc/edit?usp=sharing'
             className={styles.links}
           >
             Leap AI Feedback 
           </Link>
 
           <Link
-            href='/'
+            href='https://palakjain.hashnode.dev/'
             className={styles.links}
           >
             Blog
           </Link>
 
           <Link
-            href='/'
+            href='https://heypalakjain.vercel.app/'
             className={styles.links}
           >
             Portfolio
@@ -69,21 +70,21 @@ function Contact () {
           </h1>
 
           <Link
-            href='/'
+            href='mailto:palakb188@gmail.com'
             className={styles.links}
           >
             Email
           </Link>
 
           <Link
-            href='/'
+            href='https://www.linkedin.com/in/palakjain9'
             className={styles.links}
           >
             LinkedIn
           </Link>
 
           <Link
-            href='/'
+            href='https://github.com/PalakJain9'
             className={styles.links}
           >
             GitHub
@@ -107,18 +108,18 @@ export default function Footer () {
           className="flex justify-center items-center w-full pt-[5rem] md:px-[1.5rem] lg:px-0"
         >
           <div
-            className="relative flex justify-center items-center w-full py-[4rem] md:py-[7rem] lg:py-[15rem] rounded-3xl bg-black border border-backgroundGrey overflow-hidden drop-shadow-[0px_0px_45px_rgba(63,78,84,0.25)]"
+            className="relative flex justify-center items-center w-full py-[3.5rem] md:py-[5rem] lg:py-[10rem] rounded-3xl bg-black border border-backgroundGrey overflow-hidden drop-shadow-[0px_0px_45px_rgba(63,78,84,0.25)]"
           >
             <Image 
               src="/blueGrid.svg"
               alt="footer"
               width={100}
               height={100}
-              className="w-2/3 absolute top-0 left-0"
+              className="w-2/3 absolute top-0 left-0 object-contain"
             />
 
             <div
-              className="flex flex-col gap-8 justify-center items-center w-full md:w-2/3 h-full"
+              className="flex flex-col gap-[5rem] justify-center items-center w-full md:w-2/3 h-full"
             >
               <p
                 className="text-3xl md:text-4xl lg:text-6xl font-semibold text-center gradientText"
@@ -130,15 +131,15 @@ export default function Footer () {
                 className="z-10 flex flex-col lg:flex-row gap-4 justify-center items-center w-full h-full font-semibold"
               >
                 <Link
-                  href="/"
+                  href='mailto:palakb188@gmail.com'
                   className="w-full md:w-1/2 lg:w-1/3 bg-white p-[1rem] rounded-lg hover:bg-white/80 flex justify-center items-center lg:text-lg"
                 >
                   Hire Palak
                 </Link>
 
                 <Link
-                  href="/"
-                  className="w-full md:w-1/2 lg:w-1/3 bg-backgroundGrey p-[1rem] text-white rounded-lg hover:bg-white/20 flex justify-center items-center lg:text-lg"
+                  href="https://drive.google.com/file/d/1xud80slg703595S8h1Kwkp_NEbBxR4WI/view?usp=sharing"
+                  className="w-full md:w-1/2 lg:w-1/3 bg-darkGrey p-[1rem] text-white rounded-lg hover:bg-backgroundGrey flex justify-center items-center lg:text-lg"
                 >
                   View Resume
                 </Link>
@@ -150,7 +151,7 @@ export default function Footer () {
               alt="footer"
               width={100}
               height={100}
-              className="w-2/3 absolute bottom-0 right-0"
+              className="w-2/3 absolute bottom-0 right-0 object-contain"
             />
           </div>
         </div>

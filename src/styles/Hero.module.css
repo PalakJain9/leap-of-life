@@ -1,7 +1,8 @@
 .gradientBackground {
   background-color:hsla(0,0%,0%,1);
   background-image:
-  radial-gradient(at 0% 20%, hsla(139,11%,11%,1) 0px, transparent 50%);
+  radial-gradient(at 0% 16%, hsla(139,11%,11%,1) 0px, transparent 50%),
+  radial-gradient(at 85% 50%, rgb(36, 23, 41) 0px, transparent 80%);
 }
 
 .heroButtons {

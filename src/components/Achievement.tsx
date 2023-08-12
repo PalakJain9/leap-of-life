@@ -33,6 +33,7 @@ export default function Achievement () {
 
       <Card> 
         <div
+          id="experience"
           className={styles.imgContainer}
         >
           <Image 
@@ -109,6 +110,7 @@ export default function Achievement () {
       {/* card 3 */}
       <Card> 
         <div
+          id="community"
           className={styles.imgContainer}
         >
           <Image 
